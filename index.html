@@ -4,58 +4,67 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
+    <title>Домашние задания</title>
 
-    <link href="./css/style.css" rel="stylesheet">
-    <script src="./js/scr.js" rel="stylesheet"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" >
+    <script src="/Homework1-2/js/scr.js" rel="stylesheet"></script>
+    <link href="/css/styles.css" rel="stylesheet">
 
 </head>
 <body>
     <div class="page_container">
-        <header>
-            <img class="header_pic" src="./img/title_image_header.jpg" alt="Каталог фруктов">
-        </header>
-
         <nav class="menu">
             <ul>
-                <li><a class="navigation-href" href="./index.html">Главная страница</a></li>
-                <li><a class="navigation-href" href="./catalog/catalog.html">Каталог</a></li>
-                <li><a class="navigation-href" href="">Контакты</a></li>
+                <li><a href="/Homework1-2/index.html">Домашние работы 1 - 2</a></li>
+                <li><a href="/Homework3/index.html">Домашняя работа 3</a></li>
+
             </ul>
         </nav>
 
-        <h1 class="heading_1">
-            Главная страница
-        </h1>
+        <main>
+            <div class="card">
+                <p>
+                    Данная страница используется для перенаправления на выполненные домашние задания по курсу <b>Веб-вёрстка HTML/CSS (семинары)</b>.
+                </p>
+            </div>
+            <div class="card">
+                <p>
+                    Первые два задания были объединены в 1 ссылку в связи с тем, что они затрагивали работу над одним сайтом. 1 ДЗ требовало призвести верстку сайта с использованием <i>HTML</i>.
+                </p>
+                <p>
+                    Второе задание требовало дополнить сайт, созданный на первом задании каскадной таблицей стилей (<i>CSS</i>).
+                </p>
+            </div>
+            <div class="card">
+                <p>
+                    Третье задание требует:
+                    <ol>
+                        <li>Работу с существующим макетом сайта созданым на сайте <b><a href="https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=23%3A2">FIGMA</a></b>  </li>
+                        <li>Разбить ранее открытый макет на блоки (как в семинаре)</li>
+                        <li>Создать свой <i>HTML</i> сайт по блокам полученным в пункте 2.</li>
+                        <li>Добавить <i>CSS</i> без применения позиционирования.</li>
+                    </ol>
+                </p>
+                <p>Результат:</p>
+                <div class="pic_in_text_center">
+                    <img src="/img/Homework3-figma-blocks.jpg" alt="Разбиение на блоки." />
+                    <p>
+                        Результат разбиения на блоки.
+                    </p>
+                </div>
 
-        <p class="paragraph">
-            Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.
-        </p>
+            </div>
 
-        <h2 class="heading_2">
-            Добро пожаловать на сайт
-        </h2>
-
-        <p class="paragraph">
-            Mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget sem nulla eu ultricies orci praesent id augue nec lorem pretium congue sit amet ac nunc fusce iaculis lorem eu diam hendrerit at mattis purus dignissim vivamus mauris tellus, fringilla.
-        </p>
-
-        <p class="paragraph">
-            Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-        </p>
-
-        <p class="paragraph">
-            Velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget sem nulla eu ultricies orci praesent id augue nec lorem pretium congue sit amet ac nunc fusce iaculis lorem eu diam hendrerit at mattis purus dignissim vivamus mauris tellus, fringilla vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo, eget consequat neque quam id tellus duis ultricies tempor tortor, vitae dignissim ligula mattis nec in hac habitasse platea dictumst.
-        </p>
+        </main>
 
         <footer>
             <hr>
+
             <p></p>
+
             <span id="clock"
-                  style="background-color: #2F4F4F; color: #00FF7F; border: 4px outset #FFA500; padding: 5px 20px;margin-left:15px;">
+                  style="background-color: #2F4F4F; color: #00FF7F; border: 4px outset #FFA500; padding: 5px 20px; float:right; margin-right:15px;">
             </span>
-            <div style="float:right;margin-right: 15px;">
+            <div style="margin-left: 15px; color:azure; font-weight:bold;">
                 &copy; Самусь Д.С.
             </div>
         </footer>

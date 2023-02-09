@@ -1,0 +1,98 @@
+﻿body {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 2% auto;
+    text-align: center;
+    display: flex
+}
+
+nav {
+    margin: auto;
+}
+
+header img {
+    display: inline-block;
+    margin: auto;
+}
+
+header a {
+    margin: 10px;
+    color: black;
+}
+
+a:hover {
+    color: #F25822;
+}
+
+.content {
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 10% auto;
+}
+
+.content-text {
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+
+.content img {
+    width: 40%;
+    margin: auto;
+}
+
+.content-info h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.content-info p {
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.content-buttons {
+    margin-left: 2em;
+}
+
+    .content-buttons a {
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+        line-height: 18px;
+        color: #AAAAAA;
+        margin-left: 2em;
+    }
+
+    .content-buttons button {
+        background: #F25822;
+        border-color: #F25822;
+        box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+        border-radius: 50px;
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+.logo {
+    width: 100%;
+    margin-top: 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+    .logo img {
+        width: 16%;
+        margin: auto;
+    }
