@@ -1,0 +1,228 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+
+.color_text {
+    color: #F16D7F;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+header {
+    display: flex;
+    height: 75px;
+    background: #222222;
+    justify-content: space-around;
+    align-items: center;
+    gap: 350px;
+}
+
+.left_header, .right_header {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.banner {
+    background: #F1E4E6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 764px;
+    margin-bottom: 60px;
+}
+
+    .banner img {
+        max-width: 75vw;
+    }
+
+.banner_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-left: 64px;
+}
+
+.banner_text {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+    .banner_text h2 {
+        font-size: 48px;
+        line-height: 57.6px;
+        font-weight: 900;
+    }
+
+    .banner_text p {
+        font-size: 32px;
+        line-height: 38.4px;
+        font-weight: 700;
+    }
+
+.offers {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,360px);
+    grid-template-rows: 260px 180px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+.offer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+    .offer p {
+        font-size: 16px;
+        line-height: 19.2px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
+    .offer h2 {
+        font-size: 24px;
+        line-height: 28.8px;
+        font-weight: 700;
+    }
+
+.long_box_offer {
+    grid-column: 1 / 4;
+}
+
+
+.offer1 {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_for_women.png);
+}
+
+.offer2 {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_for_men.png);
+}
+
+.offer3 {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_for_kids.png);
+}
+
+.offer4 {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_accessories.jpg);
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 60px;
+}
+
+    .products button {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        border: 1px solid #FF6A6A;
+        background: none;
+        padding: 15px 39px;
+    }
+
+.products_title {
+    text-align: center;
+    ;
+}
+
+    .products_title h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #222222;
+    }
+
+    .products_title p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #9F9F9F;
+    }
+
+.products_list {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,360px);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+}
+
+.product {
+    background: #F8F8F8;
+}
+
+    .product h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        margin-top: 24.35px;
+        padding-left: 18px;
+    }
+
+.product_description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-top: 12.65px;
+    padding-left: 16.46px;
+}
+
+.product_price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding-left: 18.41px;
+}
+
+@media (max-width:768px) {
+    header {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .products_list {
+        display: grid;
+        gap: 18px;
+        grid-template-columns: repeat(2,360px);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .offers {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3,232px);
+        grid-template-rows: 167.62px 116.09px;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+}
