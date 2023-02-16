@@ -113,24 +113,28 @@ header {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_for_women.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .offer2 {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_for_men.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .offer3 {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_for_kids.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .offer4 {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.3)), url(../img/offer_accessories.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    /*background-position: center center;*/
 }
 
 .products {
@@ -140,6 +144,7 @@ header {
     align-items: center;
     gap: 48px;
     padding-bottom: 60px;
+
 }
 
     .products button {
@@ -155,7 +160,7 @@ header {
 
 .products_title {
     text-align: center;
-    ;
+    
 }
 
     .products_title h2 {
@@ -177,18 +182,19 @@ header {
 .other {
     display: block;
     width: 100%;
+    max-width:1300px;
 }
 
 .products_list {
     display: grid;
-    gap: 30px;
+    gap: min(20px,calc(100vw/54));
     grid-template-columns: repeat(auto-fit, minmax(330px,360px));
     /*grid-template-rows: repeat(2,1fr);*/
-    
+
     justify-content: center;
     padding: 0 230px;
-    padding-left: min(230px,calc(100vw/25));
-    padding-right: min(230px,calc(100vw/25));
+    padding-left: min(230px,calc(100vw/48));
+    padding-right: min(230px,calc(100vw/48));
 }
 
 .product {
