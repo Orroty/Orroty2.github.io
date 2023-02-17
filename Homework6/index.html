@@ -19,13 +19,17 @@
             <img src="./img/header_left_1.png" alt="Logo">
             <img src="./img/header_left_2.svg" alt="Search">
         </div>
-        <div class="right_header">
-            <img src="./img/header_right_1.svg" alt="Navigation">
-            <img src="./img/header_right_2.svg" alt="Personal Accaunt">
-            <img src="./img/header_right_3.png" alt="Basket">
-        </div>
+        <div class="header_splitter"><p></p></div>
+        <nav class="right_header">
+            <label for="menu_check">
+                <img src="./img/header_right_1.svg" alt="Navigation">
+            </label>
+            <img src="./img/header_right_2.svg" class="mobile_no_right_header_img" alt="Personal Accaunt">
+            <img src="./img/header_right_3.png" class="mobile_no_right_header_img" alt="Basket">
+        </nav>
+        <input class="menu_checkbox" id="menu_check" type="checkbox">
     </header>
-    <div class="banner">
+    <section class="banner">
         <img src="./img/banner_big.png" alt="Banner pic">
         <div class="banner_right">
 
@@ -38,44 +42,44 @@
                 </p>
             </div>
         </div>
-    </div>
-    <div class="offers">
-        <div class="offer offer1">
+    </section>
+    <section class="offers">
+        <article class="offer offer1">
             <p>
                 30% OFF
             </p>
             <h2 class="color_text">
                 FOR WOMEN
             </h2>
-        </div>
-        <div class="offer offer2">
+        </article>
+        <article class="offer offer2">
             <p>
                 HOT DEAL
             </p>
             <h2 class="color_text">
                 FOR MEN
             </h2>
-        </div>
-        <div class="offer offer3">
+        </article>
+        <article class="offer offer3">
             <p>
                 NEW ARRIVALS
             </p>
             <h2 class="color_text">
                 FOR KIDS
             </h2>
-        </div>
-        <div class="offer offer4 long_box_offer">
+        </article>
+        <article class="offer offer4 long_box_offer">
             <p>
                 LUXIROUS & TRENDY
             </p>
             <h2 class="color_text">
                 ACCESORIES
             </h2>
-        </div>
-    </div>
+        </article>
+    </section>
 
 
-    <div class="products">
+    <main class="products">
         <div class="products_title">
             <h2>
                 Fetured Items
@@ -85,9 +89,9 @@
             </p>
         </div>
         <div class="other">
-            <div class="products_list">
-                <div class="product">
-                    <img src="./img/product_1.jpg" alt="Product 1">
+            <section class="products_list">
+                <article class="product">
+                    <img class="product_img" src="./img/product_1.jpg" alt="Product 1">
                     <h3>
                         ELLERY X M'O CAPSULE
                     </h3>
@@ -97,9 +101,10 @@
                     <p class="product_price">
                         $52.00
                     </p>
-                </div>
-                <div class="product">
-                    <img src="./img/product_2.png" alt="Product 2">
+                    <button onclick="document.location='../index.html'" class="product_add_button"><img src="./img/add_to_cart_pic.svg" alt="Add to Cart">Add to Cart</button>
+                </article>
+                <article class="product">
+                    <img class="product_img" src="./img/product_2.png" alt="Product 2">
                     <h3>
                         ELLERY X M'O CAPSULE
                     </h3>
@@ -109,9 +114,10 @@
                     <p class="product_price">
                         $52.00
                     </p>
-                </div>
-                <div class="product">
-                    <img src="./img/product_3.png" alt="Product 3">
+                    <button onclick="document.location='../index.html'" class="product_add_button"><img src="./img/add_to_cart_pic.svg" alt="Add to Cart">Add to Cart</button>
+                </article>
+                <article class="product">
+                    <img class="product_img" src="./img/product_3.png" alt="Product 3">
                     <h3>
                     </h3>
                     <p class="product_description">
@@ -120,21 +126,10 @@
                     <p class="product_price">
                         $52.00
                     </p>
-                </div>
-                <div class="product">
-                    <img src="./img/product_4.png" alt="Product 4">
-                    <h3>
-                        ELLERY X M'O CAPSULE
-                    </h3>
-                    <p class="product_description">
-                        Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
-                    </p>
-                    <p class="product_price">
-                        $52.00
-                    </p>
-                </div>
-                <div class="product">
-                    <img src="./img/product_5.png" alt="Product 5">
+                    <button onclick="document.location='../index.html'" class="product_add_button"><img src="./img/add_to_cart_pic.svg" alt="Add to Cart">Add to Cart</button>
+                </article>
+                <article class="product">
+                    <img class="product_img" src="./img/product_4.png" alt="Product 4">
                     <h3>
                         ELLERY X M'O CAPSULE
                     </h3>
@@ -144,9 +139,10 @@
                     <p class="product_price">
                         $52.00
                     </p>
-                </div>
-                <div class="product">
-                    <img src="./img/product_6.png" alt="Product 6">
+                    <button onclick="document.location='../index.html'" class="product_add_button"><img src="./img/add_to_cart_pic.svg" alt="Add to Cart">Add to Cart</button>
+                </article>
+                <article class="product">
+                    <img class="product_img" src="./img/product_5.png" alt="Product 5">
                     <h3>
                         ELLERY X M'O CAPSULE
                     </h3>
@@ -156,12 +152,26 @@
                     <p class="product_price">
                         $52.00
                     </p>
-                </div>
-            </div>
+                    <button onclick="document.location='../index.html'" class="product_add_button"><img src="./img/add_to_cart_pic.svg" alt="Add to Cart">Add to Cart</button>
+                </article>
+                <article class="product">
+                    <img class="product_img" src="./img/product_6.png" alt="Product 6">
+                    <h3>
+                        ELLERY X M'O CAPSULE
+                    </h3>
+                    <p class="product_description">
+                        Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+                    </p>
+                    <p class="product_price">
+                        $52.00
+                    </p>
+                    <button onclick="document.location='../index.html'" class="product_add_button"><img src="./img/add_to_cart_pic.svg" alt="Add to Cart">Add to Cart</button>
+                </article>
+            </section>
         </div>
-        <button>
+        <button class="all_products_button">
             Browse All Product
         </button>
-    </div>
+    </main>
 </body>
 </html>
