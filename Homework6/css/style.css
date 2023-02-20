@@ -702,7 +702,7 @@ footer {
     }
 
 
-.sub_form {
+/*.sub_form {
     animation: vibrate-3 0.5s linear infinite both;
 }
 .sub_form:hover {
@@ -714,8 +714,8 @@ footer {
     }
     .sub_form:nth-child(2):focus .sub_form {
         animation: none;
-    }
-    /*.sub-button {
+    }*/
+.sub-button {
     animation: vibrate-3 0.5s linear infinite both;
 }
 
@@ -754,12 +754,13 @@ footer {
 
     .sub-button:focus .sub_e-mail {
         animation: none;
-    }*/
-    .all_products_button:hover {
-        color: #FFFFFF;
-        border: 1px solid #FF6A6A;
-        background: #FF6A6A;
     }
+
+.all_products_button:hover {
+    color: #FFFFFF;
+    border: 1px solid #FF6A6A;
+    background: #FF6A6A;
+}
 
 @keyframes fade-in-right {
     0% {
